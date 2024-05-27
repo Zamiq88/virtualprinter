@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Printer</title>
+</head>
+<body>
+    <form method="POST">
+        {% csrf_token %}
+        <input  name="input1">soz daxil edin </input>
+        <input name="input2" type="number">nece defe cap olunsun</input>
+
+    <button>icra et </button>
+    </form>
+   {% for x in count %}
+
+   <br>{{data1}}
+   {% endfor %}
+
+    
+</body>
+</html>
